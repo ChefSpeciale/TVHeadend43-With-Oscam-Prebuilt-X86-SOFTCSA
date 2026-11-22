@@ -1,0 +1,123 @@
+{
+	"rootpath": "/dev/dvb/adapter4",
+	"frontends": {
+		"DVB-S #0": {
+			"pids_max": 32,
+			"pids_use_all": true,
+			"powersave": false,
+			"tune_repeats": 0,
+			"skip_bytes": 0,
+			"ibuf_size": 188000,
+			"status_period": 1000,
+			"sig_multiplier": 100,
+			"snr_multiplier": 100,
+			"old_status": false,
+			"grace_period": 5,
+			"enabled": true,
+			"priority": 0,
+			"spriority": 0,
+			"displayname": "TurboSight TBS 6909 DVB-S/S2  #4 : DVB-S #0",
+			"ota_epg": true,
+			"initscan": true,
+			"idlescan": true,
+			"free_weight": 0,
+			"remove_scrambled": false,
+			"networks": [
+				"8ebbc09877454930ed10da886e5dd442"
+			],
+			"linked": "",
+			"type": "DVB-S",
+			"uuid": "ecd0526f6bde33b8b814618b6eb34f99",
+			"satconf": {
+				"type": "en50607",
+				"early_tune": true,
+				"diseqc_repeats": 0,
+				"diseqc_full": true,
+				"lnb_poweroff": false,
+				"lnb_highvol": 0,
+				"elements": [
+					{
+						"enabled": true,
+						"priority": 0,
+						"networks": [
+							"8ebbc09877454930ed10da886e5dd442"
+						],
+						"lnb_type": "Universal",
+						"en50494_type": "Unicable II (EN50607)",
+						"uuid": "a91ad6f5d93332ed49b41ca87ab3fd79",
+						"lnb_conf": {
+						},
+						"en50494_conf": {
+							"powerup_time": 15,
+							"cmd_time": 50,
+							"id": 4,
+							"frequency": 1005,
+							"pin": 256,
+							"position": 0
+						}
+					},
+					{
+						"enabled": true,
+						"priority": 0,
+						"networks": [
+						],
+						"lnb_type": "Universal",
+						"en50494_type": "Unicable II (EN50607)",
+						"uuid": "7da3e9eb31366d0b5d2dda3b70bae157",
+						"lnb_conf": {
+						},
+						"en50494_conf": {
+							"powerup_time": 15,
+							"cmd_time": 50,
+							"id": 4,
+							"frequency": 1005,
+							"pin": 256,
+							"position": 1
+						}
+					},
+					{
+						"enabled": true,
+						"priority": 0,
+						"networks": [
+						],
+						"lnb_type": "Universal",
+						"en50494_type": "Unicable II (EN50607)",
+						"uuid": "b0be220af3db7d57c0c81782d2652ece",
+						"lnb_conf": {
+						},
+						"en50494_conf": {
+							"powerup_time": 15,
+							"cmd_time": 50,
+							"id": 4,
+							"frequency": 1005,
+							"pin": 256,
+							"position": 2
+						}
+					},
+					{
+						"enabled": true,
+						"priority": 0,
+						"networks": [
+						],
+						"lnb_type": "Universal",
+						"en50494_type": "Unicable II (EN50607)",
+						"uuid": "124c5b8bcaa5a378cd21dd65f8d7b0b1",
+						"lnb_conf": {
+						},
+						"en50494_conf": {
+							"powerup_time": 15,
+							"cmd_time": 50,
+							"id": 4,
+							"frequency": 1005,
+							"pin": 256,
+							"position": 3
+						}
+					}
+				],
+				"uuid": "ff69dec4c28d92f7b0ae297cc44d4da3"
+			}
+		}
+	},
+	"ca_devices": {
+	}
+}

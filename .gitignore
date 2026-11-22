@@ -1,0 +1,6 @@
+# Image exports (publish via GitHub Releases, too large for git)
+*.tar
+*.tar.sha256
+
+# Runtime data
+recordings/

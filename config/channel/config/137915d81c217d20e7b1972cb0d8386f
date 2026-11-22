@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"number": 0,
+	"icon": "file:///picons/skysporttopevent.png",
+	"epgauto": true,
+	"epglimit": 0,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"epg_running": -1,
+	"services": [
+		"e3e1e74bda88ac286fe52fc503ad28b6"
+	],
+	"tags": [
+		"a881b969554e2df84d110d0924e89d8d",
+		"89e6dcaa6fe56f64d6e074eebbf1d456"
+	],
+	"bouquet": ""
+}

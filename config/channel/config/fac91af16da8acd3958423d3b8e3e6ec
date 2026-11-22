@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"number": 0,
+	"icon": "file:///picons/skysportbundesligauhd.png",
+	"epgauto": true,
+	"epglimit": 0,
+	"dvr_pre_time": 0,
+	"dvr_pst_time": 0,
+	"epg_running": -1,
+	"services": [
+		"376c7819bf7e41474ce1041bf6041dc0"
+	],
+	"tags": [
+		"f38aaf69ca9ee974ac18c3a7ba4414e1",
+		"89e6dcaa6fe56f64d6e074eebbf1d456"
+	],
+	"bouquet": ""
+}

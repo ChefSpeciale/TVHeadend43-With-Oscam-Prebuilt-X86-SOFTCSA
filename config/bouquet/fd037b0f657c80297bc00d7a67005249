@@ -1,0 +1,21 @@
+{
+	"enabled": false,
+	"maptoch": true,
+	"mapopt": [
+		"mapradio",
+		"encrypted"
+	],
+	"chtag": [
+		"bouquet_tag"
+	],
+	"chtag_ref": "",
+	"name": "ASTRA 1",
+	"ssl_peer_verify": false,
+	"ext_url_period": 60,
+	"source": "mpegts-network://8ebbc09877454930ed10da886e5dd442",
+	"services": {
+	},
+	"services_seen": 57,
+	"comment": "BetaDigital",
+	"lcn_off": 0
+}

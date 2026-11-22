@@ -1,0 +1,16 @@
+# oscam.server generated automatically by Streamboard OSCam 2.26.11-11991
+# Read more: https://git.streamboard.tv/common/oscam/blob/master/Distribution/doc/txt/oscam.server.txt
+
+[reader]
+label                         = ADDREADERHERE
+enable                        = 1
+disablecrccws_only_for        = 098C:000000;09C4:000000;098D:000000
+protocol                      = newcamd
+device                        = 
+key                           = 
+user                          = 
+password                      = 
+connectoninit                 = 1
+caid                          = 098D
+group                         = 1
+cccreshare                    = 1

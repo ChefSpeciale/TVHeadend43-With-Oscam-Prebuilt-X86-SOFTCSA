@@ -1,0 +1,18 @@
+{
+	"orbital_pos": "19.2E",
+	"enabled": true,
+	"networkname": "ASTRA 1",
+	"pnetworkname": "BetaDigital",
+	"nid": 0,
+	"autodiscovery": 0,
+	"bouquet": true,
+	"epgauto_default": true,
+	"skipinitscan": true,
+	"idlescan": false,
+	"sid_chnum": false,
+	"ignore_chnum": false,
+	"satip_source": 0,
+	"localtime": 0,
+	"wizard": false,
+	"class": "dvb_network_dvbs"
+}

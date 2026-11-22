@@ -1,0 +1,22 @@
+services:
+  tvheadend:
+    build: .
+    image: local/tvheadend-oscam:icam
+    container_name: tvheadend
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/Amsterdam
+    volumes:
+      - tvheadend-config:/config   # Tvheadend config + OSCam config in /config/oscam
+      - ./recordings:/recordings
+    ports:
+      - 9981:9981   # Tvheadend web UI
+      - 9982:9982   # HTSP
+      - 8888:8888   # OSCam web UI
+    devices:
+      - /dev/dvb:/dev/dvb
+    restart: unless-stopped
+
+volumes:
+  tvheadend-config:

@@ -1,0 +1,55 @@
+{
+	"rootpath": "/dev/dvb/adapter6",
+	"frontends": {
+		"DVB-S #0": {
+			"pids_max": 32,
+			"pids_use_all": true,
+			"powersave": false,
+			"tune_repeats": 0,
+			"skip_bytes": 0,
+			"ibuf_size": 188000,
+			"status_period": 1000,
+			"sig_multiplier": 100,
+			"snr_multiplier": 100,
+			"old_status": false,
+			"grace_period": 5,
+			"enabled": false,
+			"priority": 0,
+			"spriority": 0,
+			"displayname": "TurboSight TBS 6909 DVB-S/S2  #6 : DVB-S #0",
+			"ota_epg": true,
+			"initscan": true,
+			"idlescan": true,
+			"free_weight": 0,
+			"remove_scrambled": false,
+			"networks": [
+			],
+			"linked": "",
+			"type": "DVB-S",
+			"uuid": "bc8b97b525e1728f7ac4fe0406873fb2",
+			"satconf": {
+				"type": "simple",
+				"early_tune": true,
+				"diseqc_repeats": 0,
+				"diseqc_full": true,
+				"lnb_poweroff": false,
+				"lnb_highvol": 0,
+				"elements": [
+					{
+						"enabled": true,
+						"priority": 0,
+						"networks": [
+						],
+						"lnb_type": "Universal",
+						"uuid": "d1b911af782aa89f1a95104af6dc23a3",
+						"lnb_conf": {
+						}
+					}
+				],
+				"uuid": "2e0a67564619cd94a3115eaea2898614"
+			}
+		}
+	},
+	"ca_devices": {
+	}
+}
