@@ -1,6 +1,6 @@
 # Tvheadend 4.3 with OSCam – prebuilt for x86-64
 
-A single Docker image that bundles **Tvheadend 4.3** (the [thealhu](https://hub.docker.com/r/thealhu/tvheadend) build with ICAM support) and **OSCam 2.26.11-11991**, preconfigured so that ICAM (CSA-ALT) channels can be descrambled by Tvheadend.
+A single Docker image that bundles **Tvheadend 4.3** (the [thealhu](https://hub.docker.com/r/thealhu/tvheadend) build with ICAM support) and **OSCam 2.26.11-11991**, preconfigured so that ICAM (CSA-ALT-3) channels can be descrambled by Tvheadend.
 
 Both services run inside one container (managed by s6-overlay). Tvheadend talks to OSCam over the DVB API on `127.0.0.1:9001`.
 
