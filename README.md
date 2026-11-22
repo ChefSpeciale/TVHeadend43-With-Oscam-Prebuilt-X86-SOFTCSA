@@ -79,7 +79,6 @@ Never forward these ports to the internet. To lock things down, add a user in Tv
 ## Troubleshooting
 
 - **OSCam shows `found`, but there's no picture.** Check `disablecrccws_only_for` (see above). This is the most common cause.
-- **`capmt: Cannot connect to 127.0.0.1:9001`.** OSCam isn't running or `listen_port` in `[dvbapi]` was changed. Check `docker logs tvheadend`.
 - **`descrambler: cannot decode packets`.** Make sure OSCam announces `e1mk` in the Tvheadend log (`Connected to server 'OSCam ...; e1mk'`). If it shows nothing or `e2`, check `extended_cw_api = 1`.
 - **OSCam log:** `docker exec tvheadend tail -f /var/log/oscam.log`
 
